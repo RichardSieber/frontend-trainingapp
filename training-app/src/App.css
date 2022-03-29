@@ -1,0 +1,23 @@
+.app-header{
+    font-weight: bold;
+    background-color:  #66d8f5;
+    padding: 1rem;  
+    position: flex;
+    width: 100%;
+    top: 0px;
+}
+
+.app-footer{
+    font-weight: bold;
+    background-color:  rgb(236, 229, 229);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+
+    
+
+}
