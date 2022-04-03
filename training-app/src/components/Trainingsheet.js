@@ -1,6 +1,7 @@
 import React from 'react'
 import { Likertsskala } from './Likertsskala'
-import './Trainingsheet.css' 
+import './Trainingsheet.css'
+import './DB.js' 
 
 const Trainingsheet = () => {
   const [name, setName] = React.useState('');
@@ -46,7 +47,7 @@ const Trainingsheet = () => {
       <button onClick={"You clicked a button!"}>
         Fertig
       </button>
- 
+      <DB />
     </>
   )
 }
